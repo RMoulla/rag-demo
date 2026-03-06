@@ -14,6 +14,28 @@ DATA_DIR = BASE_DIR / "data"
 UPLOAD_DIR = BASE_DIR / "uploads"
 DATA_FILE = DATA_DIR / "document_content.json"
 
+
+def load_env_file(env_path: Path) -> None:
+    """Load key=value pairs from a .env file into process environment."""
+    if not env_path.exists():
+        return
+
+    for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+# Load environment variables from .env when present.
+load_env_file(BASE_DIR / ".env")
+
+
 # Ensure runtime directories/files exist.
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
@@ -77,7 +99,7 @@ def call_llm(question: str, document_text: str) -> str:
     client = OpenAI()
 
     prompt = (
-        "You are an assistant answering questions using the provided document.\n\n"
+        "Tu es un assistant spécialisé dans l'extraction d'informations à partir d'un texte. Tu ne dois répondre que si l'information recherchée est contenue dans le contexte fourni\n\n"
         f"Document content:\n{document_text}\n\n"
         f"User question:\n{question}\n\n"
         "Answer the question and also indicate which page(s) contain the relevant information."
@@ -166,7 +188,7 @@ def upload_pdf():
 
     return jsonify(
         {
-            "message": "PDF uploaded and processed successfully.",
+            "message": "Documents chargés avec succès.",
             "file_name": safe_name,
             "pages": len(records),
         }

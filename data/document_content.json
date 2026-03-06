@@ -1,1 +1,622 @@
-
+[
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 1,
+    "text": "L’IAG pour chefs de projets, analystes, d´eveloppeurs et architectes\nSI\nRedha Moulla\nNantes,9-10f´evrier2026\nRedhaMoulla 2026 1/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 2,
+    "text": "Plan de la formation\nQu’est-ce que l’intelligence artificielle?\nEl´ements de machine learning et de deep learning\nIA g´en´erative\nLarge Language Models (LLM)\nLes bonnes pratiques de prompting\nLes RAG et les Agents\nL’IAG dans le cycle de d´eveloppement logiciel\nEnjeux ´ethique, de s´ecurit´e et de conformit´e de l’IAG\nRedhaMoulla 2026 2/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 3,
+    "text": "Qu’est-ce que l’intelligence artificielle?\nRedhaMoulla 2026 3/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 4,
+    "text": "D´efinition litt´erale de l’intelligence artificielle\n1. Intelligence\nEnsemble des fonctions mentales ayant pour objet la connaissance conceptuelle et\nrelationnelle.\n- Larousse\n2. Artificielle\nQui est produit de l’activit´e humaine (oppos´e `a la nature).\n- Larousse\nRedhaMoulla 2026 4/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 5,
+    "text": "Qu’est-ce que l’intelligence?\nLa notion d’intelligence recouvre plusieurs facult´es cognitives :\n1 Raisonnement : La capacit´e `a r´esoudre des probl`emes et `a faire des\nd´eductions logiques.\n2 Apprentissage : L’aptitude `a acqu´erir de nouvelles connaissances et `a\ns’am´eliorer grˆace `a l’exp´erience.\n3 Perception : La comp´etence pour reconnaˆıtre et interpr´eter les stimuli\nsensoriels.\n4 Compr´ehension : L’habilet´e `a saisir le sens et l’importance de divers\nconcepts et situations.\n5 M´emorisation : La facult´e de stocker et de rappeler des informations.\n6 Cr´eativit´e : Le pouvoir d’inventer ou de produire de nouvelles id´ees, de\nl’originalit´e dans la pens´ee.\nMais est-ce que l’intelligence est r´eductible `a des facult´es mesurables?\nRedhaMoulla 2026 5/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 6,
+    "text": "Conf´erence de Dartmouth?\nRedhaMoulla 2026 6/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 7,
+    "text": "L’intelligence artificielle selon John McCarthy\n“It is the science and engineering of making intelligent machines,\nespecially intelligent computer programs. It is related to the similar\ntask of using computers to understand human intelligence, but AI\ndoes not have to confine itself to methods that are biologically\nobservable.”\n— John McCarthy\nRedhaMoulla 2026 7/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 8,
+    "text": "Le Test de Turing\nLe Test de Turing, d´evelopp´e par Alan Turing en 1950, est une tentative de\nmesurer l’intelligence d’une machine, plus pr´ecis´ement de la factult´e d’une\nmachine `a penser. Cette derni`ere n’´etant pas si ´evidente `a mesurer, le test\nsubstitue finalement `a la facult´e de penser celle de traiter le langage naturel\ncomme un humain.\nLes points cl´es du Test de Turing sont :\nUn interrogateur humain engage une conversation avec un humain et une\nmachine, chacun ´etant cach´e de la vue de l’interrogateur.\nSi l’interrogateur ne peut pas d´eterminer syst´ematiquement quelle est la\nmachine, celle-ci est consid´er´ee comme ayant pass´e le test.\nLe test ne mesure pas la connaissance ou la capacit´e `a ˆetre v´eridique, mais\nplutˆot la capacit´e de reproduire le comportement humain.\nRedhaMoulla 2026 8/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 9,
+    "text": "D´efinition pragmatique de l’intelligence artificielle\nIl s’agit d’un ensemble de techniques qui permettent `a la machine d’accomplir des\ntˆaches qui requi`erent traditionnellement une intelligence humaine.\nRedhaMoulla 2026 9/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 10,
+    "text": "IA forte vs IA faible\nLa distinction entre IA forte et IA faible se r´ef`ere `a deux approches conceptuelles\ndiff´erentes dans le domaine de l’intelligence artificielle.\nIA faible :\nAussi connue sous le nom d’IA ”´etroite”, elle est con¸cue pour effectuer des\ntˆaches sp´ecifiques et ne poss`ede pas de conscience.\nLes syst`emes d’IA faible agissent et r´eagissent uniquement en fonction des\ninstructions programm´ees et des algorithmes sp´ecifiques.\nExemples : assistants virtuels, syst`emes de recommandation, reconnaissance\nvocale.\nIA forte :\nVise `a cr´eer des machines dot´ees de capacit´e de g´en´eralisation `a l’image de\nl’intelligence humaine.\nL’IA forte serait capable d’apprendre, de raisonner, de r´esoudre des probl`emes\net de prendre des d´ecisions ind´ependamment.\nA` ce jour, l’IA forte reste un objectif `a atteindre, qui fait l’objet de recherches\nintensives.\nRedhaMoulla 2026 10/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 11,
+    "text": "El´ements de machine learning et de deep learning\nRedhaMoulla 2026 11/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 12,
+    "text": "Qu’est-ce que la machine learning?\nL’apprentissage automatique est une branche de l’intelligence artificielle qui\nconsiste `a doter les machines de la capacit´e d’apprendre `a partir de donn´ees sans\nque celles-ci ne soient explicitement programm´ees pour ex´ecuter des tˆaches\nsp´ecifiques.\nIA discriminative : Mod´elise la fronti`ere entre les classes.\nExemples : classification de commentaires clients, routage de mails, credit\nscoring, diagnostic m´edical, etc.\nIA g´en´erative : mod´elise la distribution des donn´ees pour en g´en´erer de\nnouvelles.\nExemples : G´en´eration de texte, d’images, de musique, etc.\nApprentissage par renforcement (Reinforcement Learning) : apprend `a\nprendre des d´ecisions s´equentielles dans un environnement.\nL’agent n’imite pas ou ne classe pas, il agit pour maximiser une r´ecompense.\nExemples : Algorithmes d’ench`eres, jeux vid´eos, etc.\nRedhaMoulla 2026 12/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 13,
+    "text": "Machine learning discriminatif\nL’apprentissage automatique est une branche de l’intelligence artificielle qui\nconsiste `a doter les machines de la capacit´e d’apprendre `a partir de donn´ees sans\nque celles-ci ne soient explicitement programm´ees pour ex´ecuter des tˆaches\nsp´ecifiques.\nLe machine learning englobe deux grandes familles d’apprentissage :\nSupervis´e : Les algorithmes apprennent `a partir de donn´ees ´etiquet´ees pour\nfaire des pr´edictions ou classifications.\nNon supervis´e : L’apprentissage est effectu´e sur des donn´ees non ´etiquet´ees\npour trouver des structures cach´ees.\nRedhaMoulla 2026 13/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 14,
+    "text": "L’apprentissage supervis´e\nL’apprentissage supervis´e consiste `a apprendre un mod`ele qui associe une\n´etiquette (label) `a un ensemble de caract´eristiques (features).\nInputs : un jeu de donn´ees annot´ees pour entraˆıner le mod`ele.\nExemple : des textes (tweets, etc.) avec les sentiment associ´es, positifs ou\nn´egatifs.\nOutput : une ´etiquette pour un point de donn´ee inconnu par le mod`ele.\nL’apprentissage supervis´e se d´ecline lui-mˆeme en deux grandes familles :\nLa classification : pr´edire une cat´egorie ou une classe.\nExemple : pr´edire l’´etiquette d’une image (chat, chien, etc.), le sentiment\nassoci´e`a un texte, le centre d’int´erˆet d’un client`a partir de ses commentaires,\netc.\nLa r´egression : pr´edire une valeur continue (un nombre r´eel typiquement).\nExemple : pr´edire le prix d’un appartement, la lifetime value d’un client, etc.\nRedhaMoulla 2026 14/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 15,
+    "text": "R´egression lin´eaire simple\nSoit un ensemble de n obeservations x ,x ,...,x avec les labels correspondants\n1 2 n\ny ,y ,...,y , on cherche le mod`ele lin´eaire qui ajuste le mieux ces donn´ees.\n1 2 n\nyˆ=β +β x\n0 1\nRedhaMoulla 2026 15/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 16,
+    "text": "Minimisation du risque empirique 1/2\nL’erreur de pr´ediction pour la i i`eme observation est : e =y −yˆ. ou`\ni i i\nyˆ =β +β x .\ni 0 1 i\nRedhaMoulla 2026 16/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 17,
+    "text": "Pr´edire le prix en fonction de la surface : inf´erence\nRedhaMoulla 2026 17/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 18,
+    "text": "L’apprentissage non supervis´e\nL’apprentissage non supervis´e se r´ef`ere `a l’utilisation de mod`eles\nd’apprentissage automatique pour identifier des patterns et des structures dans\ndes donn´ees qui ne sont pas ´etiquet´ees.\nPrincipales typologies de l’apprentissage non supervis´e :\nClustering : Regroupement de points de donn´ees similaires ensemble.\nExemple : segmentation de march´e, regroupement social.\nD´etection d’anomalies : D´etecter des observations dont les caract´eristiques\nsont inhabituelles par rapport `a la majorit´e.\nRedhaMoulla 2026 18/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 19,
+    "text": "Clustering\nExemple de clustering : segmentation clients\nRedhaMoulla 2026 19/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 20,
+    "text": "D´etection d’anomalies\nExemple de d´etection d’anomalies : fraude bancaire\nRedhaMoulla 2026 20/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 21,
+    "text": "El´ements de deep learning\nRedhaMoulla 2026 21/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 22,
+    "text": "Br`eve histoire du deep learning\n1940-1980 : Fondations\n1943 : Neurone artificiel (McCulloch & Pitts).\n1986 : R´etropropagation (Rumelhart, Hinton, Williams).\n1990-2000 : Hiver\nManque de donn´ees et puissance de calcul.\nProgr`es en th´eorie : SVM, mod`eles bay´esiens.\n2010-2020 : Renaissance\n2012 : AlexNet r´evolutionne la vision par ordinateur.\nDepuis 2020 : Multimodalit´e et LLM\n2017 : Transformer, base des LLM.\n2018 - 2020 : GPT-3, BERT.\n2022 : ChatGPT...\nRedhaMoulla 2026 22/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 23,
+    "text": "Introduction aux r´eseaux de neurones\nD´efinition : Les r´eseaux de neurones sont des mod`eles computationnels inspir´es\npar le fonctionnement des neurones dans le cerveau humain. Ils sont capables\nd’apprendre des tˆaches complexes en mod´elisant des relations non lin´eaires entre\nles entr´ees et les sorties.\nCaract´eristiques :\nExtraction automatique des features : Capacit´e d’adaptation et\nd’extraction des features `a partir des donn´ees sans programmation explicite.\nMod´elisation non lin´eaire : Aptitude `a capturer des relations complexes\ndans les donn´ees.\nMod´elisation en grande dimension : Les mod`eles de deep learning sont\nparticuli`erement adapt´es pour les donn´ees en grande dimension (images,\ntexte, etc.).\nFlexibilit´e : Applicables `a un large ´eventail de tˆaches et de typologies de\ndonn´ees (images, langage naturel, donn´ees graphiques, etc.).\nRedhaMoulla 2026 23/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 24,
+    "text": "Extraction de features\nExtraction de features en machine learning ”classique”\nExtraction de features en deep learning\nRedhaMoulla 2026 24/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 25,
+    "text": "Illustration d’un r´eseau de neurones classique\nRedhaMoulla 2026 25/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 26,
+    "text": "Neurone aritificiel\nRedhaMoulla 2026 26/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 27,
+    "text": "Illustration des fonctions d’activation\nRedhaMoulla 2026 27/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 28,
+    "text": "La fonction SoftMax dans la classification dans la derni`ere\ncouche\nLe SoftMax transforme une liste de scores en probabilit´es de classes. C’est la\nderni`ere ´etape d’un mod`ele de classification multiclasses.\nFormule :\nesi\nP(y )=\ni (cid:80)K esj\nj=1\nou` s repr´esente le score associ´e `a la classe i, et K le nombre total de classes.\ni\nExemple :\n\nchat:0.85\n\nImage→ chien:0.10\noiseau:0.05\n→ Le mod`ele pr´edit la classe la plus probable (*chat*), tout en conservant une\nestimation pour les autres.\nRedhaMoulla 2026 28/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 29,
+    "text": "Large Language Models (LLMs)\nRedhaMoulla 2026 29/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 30,
+    "text": "Anciens mod`eles pour le traitement du langage : RNN\nM´emoire `a court terme : Les reaseaux de neurones r´ecurrents (RNN) ont la\ncapacit´e de se ”souvenir” d’informations pass´ees grˆace `a leurs connexions\nr´ecurrentes.\nTraitement de s´equences : Ils sont particuli`erement adapt´es pour des\ntˆaches ou` les donn´ees sont s´equentielles et ou` le contexte est important.\nRedhaMoulla 2026 30/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 31,
+    "text": "Transformers\nRedhaMoulla 2026 31/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 32,
+    "text": "Transformer originel\nRedhaMoulla 2026 32/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 33,
+    "text": "M´ecanisme de cross-attention\nRedhaMoulla 2026 33/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 34,
+    "text": "M´ecanisme de self-attention\nRedhaMoulla 2026 34/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 35,
+    "text": "Fonctionnement du m´ecanisme de self-attention\nRedhaMoulla 2026 35/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 36,
+    "text": "Calcul des scores de self-attention\nRedhaMoulla 2026 36/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 37,
+    "text": "Calcul des scores de self-attention\nRedhaMoulla 2026 37/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 38,
+    "text": "Calcul de la nouvelle repr´esentation\nRedhaMoulla 2026 38/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 39,
+    "text": "Performances du tranformer originel\nEntraˆın´e sur WMT 2014 English- German dataset, comprenant pr`es de 4.5\nmillions de phrases sentence, le WMT 2014 English-French dataset, comprenant\npr`es de 36 millions de phrases.\n8 NVIDIA P10 GPUs\nBase : 12 heures\nLarge : 3.5 jours\nRedhaMoulla 2026 39/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 40,
+    "text": "BERT\nBERT (Bidirectional Encoder Representations from Transformers) repr´esente une\navanc´ee majeure dans le NLP, introduisant une approche novatrice pour la\nmod´elisation de langage. Il utilise la bidirectionnalit´e pour comprendre le contexte\ndes mots, permettant une compr´ehension plus fine du langage.\nPr´e-entraˆınement\nRedhaMoulla 2026 40/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 41,
+    "text": "Fine-tuning de BERT pour des tˆaches sp´ecifiques\nApr`es pr´e-entraˆınement, BERT est affin´e pour des tˆaches sp´ecifiques :\nAjout d’une couche de sortie sp´ecifique `a la tˆache (classification, NER, QA).\nFine-tuning de tous les param`etres du mod`ele pr´e-entraˆın´e sur le corpus de la\ntˆache.\nRedhaMoulla 2026 41/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 42,
+    "text": "Performances de BERT\nBERT a ´et´e pr´e-entrain´e sur le BookCorpus (800 millions de mots) et English\nWikipedia (2,500 millions de mots).\nDeux mod`eles :\nBERT Base : 12 couches avec 110 millions de param`etres.\nBERT Large : 24 couches avec 340 millions de param`etres.\nRedhaMoulla 2026 42/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 43,
+    "text": "Mod`eles g´en´eratifs (GPT)\nCe que je ne peux pas cr´eer,\n≪\nje ne le comprends pas.\n≫\n– Richard Feynman\nRedhaMoulla 2026 43/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 44,
+    "text": "Fonctionnement des mod`eles g´en´eratifs\nRedhaMoulla 2026 44/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 45,
+    "text": "Le param`etre de temp´erature\nD´efinition La temp´erature (T) contrˆole le degr´e d’al´ea dans les r´eponses g´en´er´ees.\nElle agit sur la distribution de probabilit´e des mots avant l’´echantillonnage.\nFormule math´ematique :\nezi/T\nP(x )=\ni (cid:80) ezj/T\nj\nT <1 → distribution plus concentr´ee, r´eponses plus pr´evisibles\nT >1 → distribution plus plate, r´eponses plus vari´ees et cr´eatives\nAutrement dit :\nBasse temp´erature → pr´ecision et coh´erence.\nHaute temp´erature → imagination et diversit´e.\nRedhaMoulla 2026 45/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 46,
+    "text": "Illustration graphique de l’effet de la temp´erature\nRedhaMoulla 2026 46/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 47,
+    "text": "La tok´enisation\nProbl`eme de d´epart : Les mod`eles de langage ne peuvent pas traiter\ndirectement du texte brut : les mots, les accents, la ponctuation et les variations\nsont trop nombreux (plusieurs millions de combinaisons possibles).\nLa tok´enisation : Elle consiste `a d´ecouper le texte en unit´es r´eutilisables et\nlimit´ees en nombre, appel´ees tokens. Chaque token est ensuite repr´esent´e par un\nidentifiant num´erique que le mod`ele peut apprendre `a pr´edire.\nInt´erˆet de la tok´enisation :\nR´eduire la complexit´e du vocabulaire : on passe de millions de mots `a\nquelques dizaines de milliers de tokens.\nG´erer les mots inconnus ou rares en les d´ecomposant en sous-unit´es connues.\nOffrir une repr´esentation num´erique uniforme du langage, compatible avec les\nr´eseaux de neurones.\nRedhaMoulla 2026 47/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 48,
+    "text": "La composition des donn´ees d’entraˆınement des mod`eles\nPrincipe g´en´eral Les mod`eles de langage sont entraˆın´es sur d’immenses corpus\nde texte — souvent plusieurs milliers de milliards de tokens — issus de sources\ntr`es diverses pour couvrir la langue, les faits et les styles.\nSources typiques de donn´ees :\nWeb public : pages web, articles, forums, Wikip´edia (ex. Common Crawl).\nLivres et documents : œuvres litt´eraires, articles scientifiques, rapports\ntechniques.\nDonn´ees de code : d´epˆots GitHub, notebooks, documentation technique.\nConversations et dialogues : jeux de donn´ees de chat, discussions de\nforums, donn´ees annot´ees par des humains.\nDonn´ees synth´etiques : textes g´en´er´es par d’autres mod`eles pour enrichir\ncertaines th´ematiques.\nE´quilibre recherch´e :\nDiversit´e linguistique et th´ematique (langues, registres, domaines).\nQualit´e et coh´erence (filtrage du spam, des doublons, des contenus toxiques).\nRepr´esentation´equilibr´ee entre langage courant, technique et conversationnel.\nRedhaMoulla 2026 48/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 49,
+    "text": "GPT-3\nD´evelopp´e par OpenAI, publi´e en 2020.\nMod`ele auto-r´egressif bas´e sur l’architecture Transformer.\nCaract´eristique Valeur / D´etail\nDate 2020\nParam`etres 175 milliards\nCorpus d’entraˆınement Environ 300 milliards de tokens\nContexte maximum 2048 tokens\nRessources GPU Plusieurs centaines de GPU (type V100)\nCouˆt d’entraˆınement (estim.) 4,6 M$ `a 12 M$ (selon les sources)\nApplications : g´en´eration de texte, Q&R, r´esum´e, traduction, assistance `a la\nprogrammation.\nRedhaMoulla 2026 49/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 50,
+    "text": "Le few-shot learning\nLes grands mod`eles (comme GPT-3) peuvent r´ealiser des tˆaches sans ˆetre\nexplicitement r´eentraˆın´es dessus.\nLe principe repose sur l’utilisation de quelques exemples (exemples\n´etiquet´es) directement dans le prompt ou l’entr´ee.\nZero-shot : aucune d´emonstration fournie, le mod`ele doit comprendre la\ntˆache `a partir de sa connaissance g´en´erale.\nOne-shot / Few-shot : on inclut un nombre tr`es r´eduit d’exemples (un ou\nquelques-uns) pour guider le mod`ele dans la r´esolution de la tˆache.\nExemple :\nEnglish : ”cat” → French : ”chat”\nEnglish : ”house” → French : ”maison”\nEnglish : ”car” → French : ”voiture”\nEnglish : ”tree” → French :\nRedhaMoulla 2026 50/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 51,
+    "text": "ChatGPT\nChatGPT, d´evelopp´e par OpenAI, est un mod`ele de langage bas´e sur l’architecture\nGPT (Generative Pre-trained Transformer) optimis´e pour comprendre et g´en´erer\ndes dialogues naturels. L’entraˆınement de ChatGPT se d´ecline selon les ´etapes\nsuivantes :\n1 Pr´e-entraˆınement sur un corpus volumineux : Comme GPT-3, ChatGPT\nest d’abord pr´e-entraˆın´e sur un vaste ensemble de donn´ees textuelles,\nenglobant un large ´eventail de la litt´erature disponible sur Internet, pour\napprendre une compr´ehension g´en´erale du langage.\n2 Fine-tuning supervis´e : Ensuite, ChatGPT est affin´e sur des dialogues\nsp´ecifiques pour am´eliorer ses comp´etences conversationnelles. Cette ´etape\nutilise des paires question-r´eponse et des conversations pour enseigner au\nmod`ele des structures de dialogue et des r´eponses contextuellement\nappropri´ees.\n3 Reinforcement Learning from Human Feedback (RLHF) : Utilisation de\ntechniques de renforcement pour ajuster les r´eponses du mod`ele bas´ees sur\nles pr´ef´erences et les corrections fournies par des ´evaluateurs humains,\nraffinant davantage la pertinence et la naturalit´e des r´eponses.\nRedhaMoulla 2026 51/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 52,
+    "text": "LLMs propri´etaires vs Open Source\nMod`eles propri´etaires\nChatGPT, Claude, Gemini, Grok...\nPoids non disponibles au public.\nPerformances´elev´ees, acc`es limit´e par API payante\nProtection intellectuelle stricte (code non accessible)\nSupport technique assur´e, documentation avanc´ee\nD´ependance aux fournisseurs et couˆts potentiellement´elev´es\nMod`eles open source\nLlama, Mistral, Gemma, DeepSeek, Qwen...\nPoids disponibles au public\nTransparence du code, flexibilit´e d’adaptation\nPerformances parfois inf´erieures, mais am´elioration continue\nGratuit, mais couˆt de l’infrastructure`a g´erer\nExposition aux failles potentielles de s´ecurit´e, support communautaire\nConclusion : Choisir entre contrˆole, flexibilit´e et performances optimales.\nRedhaMoulla 2026 52/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 53,
+    "text": "Comparaison des performances des LLMs : benchmarks\nclassiques\nRedhaMoulla 2026 53/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 54,
+    "text": "Evolution des performances des LLMs sur SWE-Bench\nRedhaMoulla 2026 54/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 55,
+    "text": "Introduction au prompting\nD´efinition : Le prompting est l’art de formuler des instructions `a un mod`ele de\nlangage afin d’obtenir une r´eponse pertinente et de qualit´e.\nId´ee cl´e : La qualit´e de la sortie d´epend fortement de la mani`ere dont l’entr´ee est\nr´edig´ee.\nEnjeux :\nObtenir des r´esultats pr´ecis et coh´erents.\nR´eduire les risques d’ambigu¨ıt´es et d’hallucinations.\nAdapter le style et le niveau de d´etail de la r´eponse.\nRedhaMoulla 2026 55/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 56,
+    "text": "Techniques de base du prompting\nPrompt clair et explicite : ´eviter les formulations vagues.\nContexte : fournir des informations suppl´ementaires pour orienter le mod`ele.\nFormat attendu : indiquer la structure de sortie souhait´ee (liste, tableau,\ntexte court).\nExemples : montrer un ou plusieurs cas pour guider la g´en´eration.\nExemple : Au lieu de ”C’est quoi le machine learning?”, ´ecrire ”Donne une\nexplication d´etaill´ee du fonctionnement du machine learning, illustr´ee avec un\nexemple”.\nRedhaMoulla 2026 56/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 57,
+    "text": "1. Le ton change la structure du raisonnement\nPrincipe\nLe ton du prompt influence non seulement le style, mais aussi la structure logique\nde la r´eponse.\nEffets observ´es\nTon calme et analytique : produit une ´ecriture d´eductive et ordonn´ee, ou` le\nmod`ele explicite les causes et d´eveloppe les id´ees avant de conclure.\nTon urgent ou tendu : g´en`ere une ´ecriture t´el´egraphique, orient´ee vers\nl’action, avec phrases courtes et listes de d´ecisions.\nExemples\nExplique pos´ement, en suivant un raisonnement logique. Vite : r´esume-moi\n≪ ≫ ≪\nce que je dois dire au client dans deux minutes.\n≫\nA` retenir\nLe ton est un levier cognitif : il modifie la mani`ere dont le mod`ele raisonne avant\nmˆeme d’´ecrire.\nRedhaMoulla 2026 57/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 58,
+    "text": "2. Les m´etaphores encadrent la pens´ee\nPrincipe\nLa m´etaphore impose un cadre de raisonnement : elle force le mod`ele `a r´eencoder\nle concept dans une structure famili`ere.\nEffets observ´es\nElle permet d’aborder des notions abstraites par transfert analogique.\nElle structure naturellement la r´eponse selon les dimensions de la m´etaphore\n(par exemple : ingr´edients, recettes, cuisson).\nExemples\nExplique le machine learning comme si c’´etait une cuisine. Explique\n≪ ≫ ≪\nl’optimisation comme une randonn´ee avec des ´etapes et des sommets.\n≫\nA` retenir\nLa m´etaphore agit comme un cadre cognitif qui oriente la logique et le vocabulaire\ndu texte.\nRedhaMoulla 2026 58/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 59,
+    "text": "3. Les roˆles activent des corpus latents\nPrincipe\nAttribuer un rˆole au mod`ele s´electionne une mani`ere de parler et de raisonner\nissue de son corpus.\nEffets observ´es\nHistorien : met l’accent sur la chronologie et les causes profondes.\nIng´enieur sceptique : insiste sur les hypoth`eses, les tests et les limites.\nPo`ete critique : privil´egie les images, les tensions et le rythme.\nExemples\nAgis comme un historien en expliquant les causes profondes. R´eponds\n≪ ≫ ≪\ncomme un ing´enieur qui doute de ses propres hypoth`eses.\n≫\nA` retenir\nLe rˆole agit comme un filtre stylistique et culturel qui oriente la r´eponse sans en\nchanger le fond.\nRedhaMoulla 2026 59/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 60,
+    "text": "4. La pr´ecision du contexte vaut plus que la longueur\nPrincipe\nUn contexte pr´ecis et incarn´e produit de meilleures r´eponses qu’une longue liste\nd’instructions abstraites.\nEffets observ´es\nLe mod`ele comprend mieux la situation lorsqu’elle est ancr´ee dans un cadre\nconcret.\nLes r´eponses deviennent plus pertinentes et plus naturelles.\nExemples\nTu ´ecris `a ton sup´erieur, ton ferme mais respectueux, objectif : obtenir une\n≪\nvalidation avant 18 h. En 200 mots, identifie trois risques et formule une\n≫ ≪\ndemande de d´ecision.\n≫\nA` retenir\nUn cadre incarn´e aide le mod`ele `a raisonner comme dans une situation r´eelle.\nRedhaMoulla 2026 60/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 61,
+    "text": "5. Les verbes d’action changent la dynamique\nPrincipe\nLe verbe choisi d´etermine le type de raisonnement attendu.\nEffets observ´es\nExplique : logique de cause `a effet.\nMontre : logique d’exemple et d’illustration.\nR´ev`ele : logique d’enquˆete ou de d´ecouverte.\nExemples\nExplique en trois causes principales. Montre deux exemples concrets et un\n≪ ≫ ≪\ncontre-exemple. R´ev`ele l’´el´ement cach´e qui change la conclusion.\n≫ ≪ ≫\nA` retenir\nLe verbe oriente la structure du texte et la nature du raisonnement.\nRedhaMoulla 2026 61/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 62,
+    "text": "6. Le silence comme outil\nPrincipe\nNe pas tout pr´eciser laisse au mod`ele une marge d’interpr´etation, propice `a la\ncr´eativit´e.\nEffets observ´es\nLe mod`ele compl`ete avec des r´egularit´es contextuelles, souvent pertinentes.\nTrop de contraintes bloque la pens´ee et conduit `a des r´eponses format´ees.\nExemples\nDonne trois options, dont une plus audacieuse, sans les justifier. R´edige un\n≪ ≫ ≪\nbrouillon brut, sans titres, avec les id´ees cl´es uniquement.\n≫\nA` retenir\nLe vide agit comme un espace de respiration qui stimule la cr´eativit´e.\nRedhaMoulla 2026 62/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 63,
+    "text": "7. Les ´emotions modulent l’´energie du contenu\nPrincipe\nLe ton ´emotionnel du prompt influence le rythme et la profondeur de la r´eponse.\nEffets observ´es\nCol`ere : texte direct, tranchant, orient´e vers la critique.\nTristesse : rythme lent, ton grave, introspection.\nJoie : rythme rapide, style fluide et enthousiaste.\nAdmiration : langage figur´e et ample.\nExemples\nSans d´etour, dis-moi ce qui ne va pas dans cette strat´egie. Parle avec\n≪ ≫ ≪\ngravit´e des risques syst´emiques en trois points.\n≫\nA` retenir\nL’´emotion structure le raisonnement en modulant l’´energie et la focalisation.\nRedhaMoulla 2026 63/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 64,
+    "text": "8. Le paradoxe pousse la nuance\nPrincipe\nIntroduire une contradiction dans le prompt oblige le mod`ele `a produire une\nr´eponse nuanc´ee.\nEffets observ´es\nLe mod`ele cherche un ´equilibre entre deux pˆoles logiques.\nIl produit une pens´ee dialectique plutˆot qu’un simple commentaire.\nExemples\nExplique pourquoi l’IA est `a la fois une menace et une promesse. Montre\n≪ ≫ ≪\nen quoi le progr`es peut ˆetre `a la fois un risque et une chance.\n≫\nA` retenir\nLe paradoxe favorise la nuance et la r´eflexion v´eritable.\nRedhaMoulla 2026 64/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 65,
+    "text": "Prompting pour le code\nLe prompt ne doit pas ˆetre consid´er´e comme une question, mais une sp´ecification\nlogicielle implicite.\nUn LLM :\nne d´ecouvre pas le probl`eme\nn’inf`ere pas correctement les contraintes manquantes\noptimise ce qui est explicitement formul´e\nConclusion :\nprompt vague ⇒ code instable\nprompt pr´ecis ⇒ comportement d´eterministe\nRedhaMoulla 2026 65/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 66,
+    "text": "Structure d’un prompt robuste\nUn prompt de code doit contenir explicitement :\n1 Rˆole technique\n2 Objectif final\n3 Contraintes\n4 Interdits\n5 Exemples\n6 Crit`ere de qualit´e dominant\nOmission d’un ´el´ement conduit `a un arbitrage implicite du mod`ele LLM utilis´e\npour g´en´erer le code.\nRedhaMoulla 2026 66/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 67,
+    "text": "Roˆle et orientation du mod`ele\nLe rˆole oriente le mod`ele.\nExemples :\ning´enieur junior ⇒ code verbeux, peu abstrait\ning´enieur senior ⇒ factoring, invariants implicites\ning´enieur production ⇒ gestion des erreurs, robustesse\nUtile `a pr´eciser :\nseniorit´e\ncontexte (production, POC, teaching)\nculture (clean code, pragmatique, performance)\nRedhaMoulla 2026 67/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 68,
+    "text": "Objectif : ce que le code optimise r´eellement\nLe mod`ele tend toujours vers un objectif.\nObjectifs possibles :\nlisibilit´e\nmaintenabilit´e\nperformance\nrapidit´e d’impl´ementation\nfacilit´e de test\nSans objectif explicite :\nle mod`ele sur-optimise la g´en´eralit´e\ncomplexifie inutilement\nRedhaMoulla 2026 68/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 69,
+    "text": "Contraintes techniques explicites\nLes contraintes r´eduisent l’espace de recherche.\nUtile `a pr´eciser :\nlangage + version exacte\ntaille et nature des donn´ees\nd´ependances autoris´ees ou non\ncontraintes de performance ou m´emoire\nUn LLM sans contraintes va tendre `a agire comme un g´en´erateur de patterns\ng´en´eriques.\nRedhaMoulla 2026 69/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 70,
+    "text": "Mod`eles de raisonnement\nObjectif : am´eliorer la capacit´e des LLMs `a r´esoudre des probl`emes complexes en\nrendant explicites les ´etapes de raisonnement.\nPrincipe des Chain-of-Thoughts (CoT) :\nD´ecomposer une question en ´etapes interm´ediaires logiques.\nForcer le mod`ele `a “penser `a voix haute” avant de donner la r´eponse finale.\nExemple : r´esoudre une ´equation, planifier une suite d’actions, raisonner sur\ndes donn´ees tabulaires.\nM´ethodes d’entraˆınement :\nFine-tuning supervis´e sur des datasets annot´es avec ´etapes de\nraisonnement.\nSelf-consistency : g´en´erer plusieurs chaˆınes et agr´eger la r´eponse la plus\nfr´equente/coh´erente.\nDistillation : transf´erer les capacit´es de raisonnement d’un grand mod`ele\nvers un plus petit.\nRedhaMoulla 2026 70/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 71,
+    "text": "Limites actuelles des LLMs : deux axes majeurs\n1. Hallucinations\nG´en´eration de contenus inexacts ou invent´es, parfois avec une forte confiance.\nDifficult´e `a distinguer le vrai du plausible, surtout hors du domaine\nd’entraˆınement.\nCons´equences : risque de d´esinformation, perte de fiabilit´e, n´ecessit´e de\nv´erification humaine.\n2. Non-d´eterminisme\nUn mˆeme prompt peut produire plusieurs r´eponses diff´erentes.\nR´esultats sensibles `a la temp´erature, au contexte ou `a de l´eg`eres variations de\nformulation.\nEnjeu pour la reproductibilit´e et le contrˆole qualit´e des syst`emes fond´es sur\nles LLMs.\nRedhaMoulla 2026 71/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 72,
+    "text": "Retrieval Augmented Generation (RAG)\nRedhaMoulla 2026 72/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 73,
+    "text": "Principes du RAG\nRedhaMoulla 2026 73/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 74,
+    "text": "Strat´egies de chunking\nD´efinition : Le chunking consiste `a segmenter un document en morceaux\n(chunks) pour optimiser la r´ecup´eration et la g´en´eration d’informations dans\nun syst`eme RAG.\nPrincipales strat´egies :\nFixed-size chunking : d´ecoupage en segments de longueur fixe (ex : 512\ntokens), simple mais peut fragmenter le contexte.\nOverlapping chunks : chevauchement entre les segments pour conserver le\ncontexte et´eviter la perte d’informations critiques.\nSemantic chunking : segmentation bas´ee sur la structure du texte\n(paragraphes, titres, sections) ou l’analyse s´emantique.\nRecursive chunking : division progressive en fonction de la granularit´e des\ninformations pertinentes.\nExemples d’outils : LangChain, NLTK, SpaCy, tiktoken.\nAvantages : Am´eliore la r´ecup´eration d’informations, r´eduit le bruit et\noptimise l’usage des mod`eles g´en´eratifs.\nRedhaMoulla 2026 74/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 75,
+    "text": "Bases de donn´ees vectorielles\nD´efinition : Stockent et indexent des repr´esentations num´eriques\n(embeddings) pour effectuer des recherches s´emantiques efficaces.\nPrincipe : Chaque document est transform´e en un vecteur dense dans un\nespace de grande dimension. La recherche repose sur la similarit´e (cosinus,\nANN, etc.) plutˆot que sur des mots-cl´es.\nRedhaMoulla 2026 75/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 76,
+    "text": "Approches avanc´ees du RAG\nReranking :Am´eliorationdelas´electiondesdocumentsr´ecup´er´esenutilisant\nun mod`ele plus puissant (ex : cross-encoder, Cohere Rerank, ColBERT).\nFine-tuning du retrieveur : Optimisation de l’indexation et du scoring des\ndocuments avec un mod`ele entraˆın´e sp´ecifiquement sur le domaine\nd’application.\nGraph RAG : Utilisation d’un graphe de connaissances pour structurer les\nrelations entre documents et am´eliorer la r´ecup´eration d’information.\nAgent RAG : Int´egration d’agents conversationnels capables d’ex´ecuter des\nactions (recherches multiples, v´erification des r´eponses) avant de g´en´erer une\nr´eponse finale.\nRedhaMoulla 2026 76/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 77,
+    "text": "Reranking dans le RAG\nD´efinition : Le reranking consiste `a r´eordonner les documents r´ecup´er´es pour\nam´eliorer la pertinence des r´esultats avant de les passer au mod`ele g´en´eratif.\nM´ethodes principales :\nBM25 + Reranker : recherche lexicale suivie d’un mod`ele neuronal qui affine\nle classement des documents.\nCross-encoder : mod`ele BERT-like qui´evalue chaque document en prenant\nen compte`a la fois la requˆete et le contenu.\nDense Reranking : ajuste les scores des documents en utilisant des\nembeddings appris sur des donn´ees sp´ecifiques.\nExemples d’outils : Cohere Rerank, ColBERT, MonoT5, Rank-BERT.\nAvantages : Meilleure pr´ecision des r´esultats, r´eduction du bruit,\nam´elioration des performances du mod`ele g´en´eratif.\nRedhaMoulla 2026 77/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 78,
+    "text": "Fine-tuning dans le RAG\nD´efinition : Le fine-tuning consiste `a ajuster un mod`ele pr´e-entraˆın´e sur un\nensemble de donn´ees sp´ecifique pour am´eliorer ses performances dans un\ndomaine pr´ecis.\nTypes de fine-tuning :\nFine-tuning du retrieveur : am´elioration de la r´ecup´eration des documents en\nentraˆınant un mod`ele dense (ex : Contriever, ColBERT) sur un corpus\nsp´ecialis´e.\nFine-tuning du mod`ele g´en´eratif : adaptation d’un LLM pour mieux\nexploiter les documents r´ecup´er´es et g´en´erer des r´eponses plus pertinentes.\nFine-tuning hybride : entraˆınement simultan´e du retrieveur et du mod`ele\ng´en´eratif pour une synergie optimale.\nAvantages : L’avantage principal est une meilleure sp´ecialisation du mod`ele.\nRedhaMoulla 2026 78/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 79,
+    "text": "Graph RAG\nD´efinition : Le Graph RAG utilise une structure de graphe pour organiser et\nr´ecup´erer l’information de mani`ere plus contextuelle et structur´ee.\nPrincipes cl´es :\nRelations entre documents : les nœuds repr´esentent des documents,\nconcepts ou entit´es, et les arˆetes d´efinissent leurs connexions.\nRecherche bas´ee sur la connectivit´e : la r´ecup´eration d’informations se fait\nen explorant les relations entre les nœuds pour trouver les r´eponses les plus\npertinentes.\nAugmentation du contexte : le mod`ele peut utiliser des chemins s´emantiques\ndans le graphe pour enrichir le prompt avec des donn´ees plus coh´erentes.\nExemples d’outils : Neo4j, NetworkX, Weaviate.\nAvantages : Meilleure structuration des connaissances, r´ecup´eration\nd’information plus pr´ecise, r´eduction des erreurs contextuelles.\nRedhaMoulla 2026 79/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 80,
+    "text": "Agent RAG\nD´efinition : L’Agent RAG int`egre un agent autonome qui orchestre la\nr´ecup´eration et l’exploitation des documents pour affiner la g´en´eration de\nr´eponses.\nPrincipes cl´es :\nMulti-recherches adaptatives : l’agent effectue plusieurs requˆetes en fonction\ndu contexte et ajuste dynamiquement le retrieveur.\nV´erification et correction : l’agent peut analyser la r´eponse g´en´er´ee, d´etecter\nd’´eventuelles erreurs et reformuler la requˆete si n´ecessaire.\nActions sp´ecifiques : l’agent peut interagir avec des bases de donn´ees, des\nAPI externes ou ex´ecuter du code pour enrichir la r´eponse finale.\nExemples d’outils : LangChain Agents, CrewAI, etc.\nAvantages : Plus grande autonomie, r´ecup´eration d’informations plus\ndynamique, r´eduction des erreurs g´en´eratives.\nRedhaMoulla 2026 80/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 81,
+    "text": "Agents bas´es sur les LLM\nRedhaMoulla 2026 81/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 82,
+    "text": "Introduction aux Agents\nD´efinition : Les agents bas´es sur les LLMs sont des syst`emes capables de\nprendre des actions de mani`ere autonome en utilisant des outils mis `a leur\ndisposition.\nPourquoi les agents?\nLes mod`eles de langage seuls sont limit´es par leurs donn´ees d’entraˆınement.\nLes agents ´etendent ces capacit´es en utilisant des outils externes.\nObjectif de la pr´esentation :\nExpliquer le roˆle des agents en IA.\nPr´esenter leur architecture et leurs composants.\nExplorer les cas d’utilisation et les techniques modernes d’orchestration.\nRedhaMoulla 2026 82/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 83,
+    "text": "Principe d’un Agent\nRedhaMoulla 2026 83/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 84,
+    "text": "Chain-of-Thought (CoT)\nQu’est-ce que CoT?\nUne technique de raisonnement permettant aux mod`eles de langage de\ndiviser une tˆache complexe en ´etapes interm´ediaires.\nFonctionnement :\n- Le mod`ele g´en`ere une s´equence de raisonnements explicites avant de fournir\nune r´eponse.\n- Permet d’am´eliorer la pr´ecision et la transparence des d´ecisions prises par un\nagent.\nApplications :\n- R´esolution de probl`emes math´ematiques complexes.\n- Compr´ehension de texte avec inf´erences logiques.\n- R´eponses plus pr´ecises et coh´erentes dans les dialogues IA.\nRedhaMoulla 2026 84/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 85,
+    "text": "ReAct : Reasoning + Acting\nD´efinition : ReAct est une approche qui combine le raisonnement et l’action pour\nam´eliorer la prise de d´ecision des mod`eles de langage.\nPrincipe :\nLe mod`ele observe une entr´ee utilisateur et g´en`ere une pens´ee explicite\n(reasoning).\nIl s´electionne une action (acting) bas´ee sur cette pens´ee et l’ex´ecute.\nUne observation est obtenue en r´eponse `a l’action, servant de contexte pour\nla prochaine it´eration.\nCe cycle de raisonnement et d’action continue jusqu’`a atteindre une r´eponse\nsatisfaisante.\nAvantages :\nR´eduction des hallucinations en int´egrant des informations en temps r´eel.\nAm´elioration de l’interpr´etabilit´e grˆace aux traces de raisonnement.\nMeilleure capacit´e d’adaptation dans des environnements dynamiques.\nRedhaMoulla 2026 85/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 86,
+    "text": "Syt`emes multiagents LLMs\nRedhaMoulla 2026 86/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 87,
+    "text": "Model Context Protocol (MCP)\nModel Context Protocol (MCP) est un protocole client/serveur qui formalise\nl’acc`es d’un LLM `a des capacit´es externes.\nRˆoles\nLLM : raisonnement, s´election d’actions\nClient MCP : orchestration, validation, politiques\nServeur MCP : exposition et ex´ecution des capacit´es\nPrincipe fondamental :\nle LLM ne fait que choisir dans un espace d’actions explicitement d´eclar´e\nMCP ne modifie pas la capacit´e du LLM `a raisonner; il modifie la de ce qu’il est\nautoris´e `a faire.\nRedhaMoulla 2026 87/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 88,
+    "text": "Mod`ele formel : espace d’actions contraint\nSoit un ensemble d’actions accessibles au LLM :\nA={a ,...,a }\n1 n\nChaque action a (tool) est d´efinie par un contrat :\ni\na =(name , Σin, Σout, policy )\ni i i i i\nΣin : sch´ema d’entr´ee (types, contraintes, champs requis)\nΣout : sch´ema de sortie (r´esultat, erreurs)\npolicy : permissions, scopes, budgets\nLe LLM doit produire un couple valide (a ,x) avec x∈Σin. Toute sortie hors\ni i\ncontrat est non ex´ecutable.\nRedhaMoulla 2026 88/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 89,
+    "text": "Briques MCP : Resources, Tools, Prompts\nUn serveur MCP expose trois cat´egories distinctes :\nResources\nContexte adressable (URI)\nLecture contrˆol´ee : fichiers, pages web, tables, logs\nTools\nFonctions ex´ecutables\nInterfaces strictement typ´ees (JSON Schema)\nEffets r´eels : I/O, APIs, automatisation\nPrompts\nPatrons de raisonnement param´etr´es\nStandardisation du comportement entre agents\nMCP expose des contrats plutoˆt que des impl´ementations.\nRedhaMoulla 2026 89/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 90,
+    "text": "Cycle d’ex´ecution MCP (raisonnement → action)\nS´equence minimale :\n1. Discovery\nlist tools, list resources, list prompts\n2. S´election\nLe LLM choisit un tool et fournit des arguments conformes au sch´ema\n3. Validation\nLe client valide types, contraintes, policies\n4. Ex´ecution\nLe serveur ex´ecute et retourne un r´esultat structur´e\nLa robustesse du syst`eme repose sur la validit´e des sch´emas, pas sur\nl’interpr´etation du texte.\nRedhaMoulla 2026 90/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 91,
+    "text": "Ce que MCP apporte r´eellement\nApports\nExplicitation de l’espace d’actions\nS´eparation d´ecision / ex´ecution\nGouvernance par construction (permissions, budgets)\nAuditabilit´e via les appels de tools\nNon-apports\nPas plus d’intelligence\nPas plus d’autonomie\nPas d’ex´ecution dans le mod`ele\nMCP ne rend pas les LLM plus puissants; il rend les syst`emes agentiques plus\nmaˆıtrisables.\nRedhaMoulla 2026 91/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 92,
+    "text": "IAG dans le cycle de d´eveloppement\nRedhaMoulla 2026 92/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 93,
+    "text": "L’IAG dans le cycle de vie logiciel\nL’intelligence artificielle g´en´erative ne se limite pas `a l’autocompl´etion de code :\nelle peut s’int´egrer`a chaque´etape du cycle de vie logiciel pour assister les´equipes.\nConception:clarificationdesbesoins,sp´ecifications,´ebauchesd’architecture.\nD´eveloppement : g´en´eration et refactor de code, assistance aux patterns.\nTests : g´en´eration de tests unitaires et fonctionnels, d´etection de cas limites.\nInt´egration & CI/CD : review automatique de PR, g´en´eration de changelog\net documentation.\nD´eploiement : notes de version, assistance `a l’infrastructure-as-code.\nMaintenance : classification des tickets, suggestions de correctifs,\ndocumentation `a partir du code.\nRedhaMoulla 2026 93/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 94,
+    "text": "IAG dans le cycle de vie logiciel\nconception\n(sp´ecifications)\nmaintenance d´eveloppement\nIAG\nd´eploiement tests\nint´egration & ci/cd\nRedhaMoulla 2026 94/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 95,
+    "text": "Conception et sp´ecifications\nObjectif : r´eduire l’ambigu¨ıt´e et acc´el´erer le passage du besoin m´etier `a la\nsolution technique.\nTransformer une user story en endpoints d’API (routes, verbes, sch´emas\nJSON).\nG´en´erer une premi`ere ´ebauche d’architecture (services, flux, d´ependances).\nProduire un glossaire ou des crit`eres d’acceptation testables.\nExemple de prompt : A` partir de cette user story, propose les endpoints\n≪\nREST, les codes d’erreur et un sch´ema JSON pour POST /orders.\n≫\nRedhaMoulla 2026 95/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 96,
+    "text": "D´eveloppement\nObjectif : acc´el´erer l’impl´ementation tout en am´eliorant la lisibilit´e et la\nmaintenabilit´e.\nG´en´eration de fonctions `a partir d’une description en langage naturel.\nRefactor : extraction de sous-fonctions, renommage de variables,\nsimplification de structures.\nSuggestions de design patterns adapt´es au contexte.\nExemple : Avant : fonction monolithique de 80 lignes. Apr`es : d´ecoupage en\nvalidate(), transform(), persist() avec docstrings et exceptions typ´ees.\nRedhaMoulla 2026 96/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 97,
+    "text": "Tests\nObjectif : am´eliorer la couverture et d´etecter les cas limites d`es la phase de\nd´eveloppement.\nG´en´eration de tests unitaires directement `a partir du code.\nProposition de cas extrˆemes : valeurs limites, erreurs r´eseau, formats\ninattendus.\nCr´eation de sc´enarios fonctionnels d´eriv´es des user stories.\nExemple de prompt : Voici la fonction price(order). G´en`ere 8 tests unitaires\n≪\npytest couvrant remise, TVA, devise inconnue, quantit´e n´egative, seuils, valeur\nnulle.\n≫\nRedhaMoulla 2026 97/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 98,
+    "text": "Int´egration et CI/CD\nObjectif : enrichir les pipelines d’int´egration continue avec des capacit´es\nd’analyse et de g´en´eration.\nReview automatique de pull requests : d´etection de failles de s´ecurit´e, de\nduplications, de style incoh´erent.\nG´en´eration automatique de tests compl´ementaires pour valider les commits.\nProduction de documentation et de changelogs `a partir des messages de\ncommits.\nExemple : Un workflow GitHub Actions envoie le diff `a un LLM, qui commente\ndirectement la PR avec ses suggestions.\nRedhaMoulla 2026 98/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 99,
+    "text": "D´eploiement\nObjectif : automatiser et simplifier les tˆaches de mise en production.\nAssistance `a la r´edaction de scripts infrastructure-as-code (Terraform,\nAnsible).\nG´en´eration automatique des notes de version lisibles `a partir des commits.\nSupport aux ´equipes DevOps pour documenter et communiquer les\nchangements.\nExemple : A` partir de commits techniques, l’IAG r´edige un changelog clair pour\nles utilisateurs finaux.\nRedhaMoulla 2026 99/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 100,
+    "text": "Maintenance et support\nObjectif : acc´el´erer la r´esolution de probl`emes et r´eduire la dette technique.\nClassification automatique des tickets d’incidents par priorit´e et cat´egorie.\nProposition de correctifs initiaux pour certains bugs.\nG´en´eration de documentation `a partir de code existant ou de logs.\nExemple : Un log d’erreur est soumis `a l’IAG, qui propose un diagnostic et une\npiste de correction.\nRedhaMoulla 2026 100/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 101,
+    "text": "Limites et pr´ecautions\nPoints de vigilance lors de l’int´egration de l’IAG :\nQualit´e variable : sorties parfois incompl`etes ou erron´ees, besoin de\nsupervision humaine.\nS´ecurit´e et confidentialit´e : attention `a l’envoi de code ou de donn´ees\nsensibles.\nCouˆt et performance : appels API factur´es au token, temps de latence selon\nles mod`eles.\nD´ependance technologique : choix entre solutions cloud, open source\nlocales ou hybrides.\nMessage cl´e : l’IAG est un assistant puissant, mais elle ne remplace pas le rˆole\ncritique du d´eveloppeur et de l’architecte.\nRedhaMoulla 2026 101/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 102,
+    "text": "Conclusion\nSynth`ese :\nL’IAG peut intervenir `a chaque ´etape du cycle de vie logiciel.\nElle augmente la productivit´e, am´eliore la documentation et renforce les tests.\nElle exige des pr´ecautions (qualit´e, s´ecurit´e, gouvernance).\nOuverture :\nQuelle phase du cycle de vie tirerait le plus de b´en´efice de l’IAG dans vos\nprojets?\nQuels freins organisationnels ou techniques voyez-vous `a son adoption?\nRedhaMoulla 2026 102/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 103,
+    "text": "Fine-tuning des LLM\nRedhaMoulla 2026 103/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 104,
+    "text": "Introduction au fine-tuning des LLMs\nPourquoi fine-tuner un LLM?\nAdapter un mod`ele g´en´erique (GPT, LLaMA, Mistral) `a un domaine\nsp´ecifique (m´edical, juridique, entreprise).\nR´eduire la d´ependance au prompt engineering.\nAm´eliorer la pertinence, la coh´erence et le style des r´eponses.\nTypes d’adaptation :\nFine-tuning complet : mise `a jour de tous les poids.\nInstruction tuning : alignement sur des donn´ees question-r´eponse.\nPEFT (LoRA, Prefix Tuning...) : entraˆınement partiel et efficace.\nRedhaMoulla 2026 104/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 105,
+    "text": "Fine-tuning complet\nPrincipe : r´eentraˆıner l’ensemble des param`etres du mod`ele.\nAvantages : adaptation maximale au domaine, contrˆole complet.\nInconv´enients :\nN´ecessite une infrastructure GPU massive.\nTr`es couˆteux en temps et en´energie.\nRarement accessible aux entreprises classiques.\nMessage cl´e : r´eserv´e aux acteurs disposant de moyens importants (Big Tech,\nlaboratoires).\nRedhaMoulla 2026 105/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 106,
+    "text": "Approches efficaces : LoRA et PEFT\nLow-Rank Adaptation (LoRA) : on n’entraˆıne que de petites matrices\nd’adaptation .\n≪ ≫\nPEFT (Parameter-Efficient Fine-Tuning) regroupe LoRA, Prefix Tuning,\nAdapters.\nLes poids d’origine sont gel´es; seuls les modules l´egers sont optimis´es.\nAvantages :\nBeaucoup moins couˆteux.\nStockage des ≪ adapters ≫ l´eger (quelques Mo).\nFacile`a combiner avec diff´erents mod`eles de base.\nRedhaMoulla 2026 106/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 107,
+    "text": "Full fine tuning vs LoRA\nRedhaMoulla 2026 107/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 108,
+    "text": "Comparatif des approches\nRedhaMoulla 2026 108/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 109,
+    "text": "Outils utilis´es dans la pratique\nE´cosyst`eme Hugging Face et PyTorch :\nPyTorch : framework de r´ef´erence pour l’entraˆınement des LLMs.\nTransformers : chargement et utilisation des mod`eles pr´e-entraˆın´es.\nPEFT : impl´ementation de LoRA et autres techniques param`etre-efficaces.\nTrainer : API haut-niveau pour g´erer l’entraˆınement.\nAccelerate : distribution sur GPU/TPU, multi-device, mixed precision.\nCes briques se combinent pour simplifier et acc´el´erer le fine-tuning.\nRedhaMoulla 2026 109/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 110,
+    "text": "Le rˆole de Trainer\nTrainer est une abstraction pour simplifier l’entraˆınement.\nG`ere la boucle d’entraˆınement : epochs, batchs, ´evaluation, checkpoints.\nSupporte nativement les mod`eles Transformers et PEFT.\nInt`egre le logging (TensorBoard, Weights & Biases).\nExemple :\nFournir le mod`ele LoRA + datasets.\nD´efinir TrainingArguments.\nAppeler trainer.train().\nRedhaMoulla 2026 110/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 111,
+    "text": "Le rˆole d’Accelerate\nAccelerate optimise et distribue l’entraˆınement.\nMasque la complexit´e du multi-GPU et du multi-node.\nPermet l’entraˆınement en pr´ecision r´eduite (FP16, bfloat16).\nS’int`egre au Trainer ou `a une boucle PyTorch personnalis´ee.\nMessage cl´e : tirer le maximum de l’infrastructure mat´erielle sans changer le\ncode m´etier.\nRedhaMoulla 2026 111/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 112,
+    "text": "Pipeline typique avec LoRA + Trainer + Accelerate\nE´tapes principales :\n1 Charger un mod`ele pr´e-entraˆın´e (Transformers).\n2 Appliquer LoRA (PEFT).\n3 Pr´eparer dataset (instructions, Q/A).\n4 D´efinir les arguments d’entraˆınement (batch size, epochs).\n5 Lancer avec Trainer, optimis´e par Accelerate.\n6 Sauvegarder uniquement les adapters LoRA.\nR´esultat : un mod`ele sp´ecialis´e, l´eger et facile `a d´eployer.\nRedhaMoulla 2026 112/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 113,
+    "text": "Quand utiliser LoRA?\nCas pertinents :\nDomaines sp´ecialis´es (finance, m´edical, juridique).\nDonn´ees propri´etaires ou confidentielles.\nAdaptation de style (ton, vocabulaire interne).\nLimites :\nD´ependance `a la qualit´e du dataset.\nMaintenance des adapters si le mod`ele de base ´evolue.\nRedhaMoulla 2026 113/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 114,
+    "text": "Conclusion\nR´esum´e :\nLe fine-tuning complet est rare et couˆteux.\nLoRA/PEFT rend le fine-tuning accessible aux entreprises.\nTrainer et Accelerate facilitent et optimisent le processus.\nMessage cl´e : avec LoRA + Trainer + Accelerate, il est possible d’adapter un\nLLM aux besoins m´etiers sans infrastructure d´emesur´ee.\nRedhaMoulla 2026 114/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 115,
+    "text": "Enjeux ´ethiques, s´ecurit´e et conformit´e de l’IAG\nRedhaMoulla 2026 115/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 116,
+    "text": "Pourquoi parler d’´ethique et de s´ecurit´e?\nL’intelligence artificielle g´en´erative ne pose pas seulement des d´efis techniques :\nelle soul`eve des enjeux critiques pour l’entreprise.\nS´ecurit´e : risques de fuite de secrets ou d’attaques via les prompts.\nConfidentialit´e : conformit´e au RGPD, respect des donn´ees sensibles.\nPropri´et´e intellectuelle : propri´et´e des donn´ees d’entraˆınement et du\ncontenu g´en´er´e par l’IA.\nE´thique : biais, ´equit´e, responsabilit´e dans l’usage.\nMessage cl´e : l’adoption de l’IAG doit ˆetre accompagn´ee d’une gouvernance\nadapt´ee.\nRedhaMoulla 2026 116/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 117,
+    "text": "Risques de s´ecurit´e\nExemples de menaces :\nFuite de secrets : code ou identifiants envoy´es `a une API externe.\nPrompt injection : manipulation du mod`ele par un utilisateur malveillant.\nD´ependance externe : indisponibilit´e ou vuln´erabilit´e du fournisseur de\nLLM.\nBonne pratique : utiliser des proxys, filtrer les prompts et ´eviter d’envoyer des\ndonn´ees sensibles.\nRedhaMoulla 2026 117/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 118,
+    "text": "Enjeux de confidentialit´e\nProbl´ematique centrale : l’IAG traite souvent des donn´ees sensibles ou\npersonnelles.\nRGPD : droit `a l’oubli, consentement, minimisation des donn´ees.\nLocalisation des donn´ees : datacenters UE vs hors UE.\nSolutions :\nanonymisation avant envoi,\nh´ebergement de mod`eles open source en interne,\npassage par un proxy d’entreprise.\nRedhaMoulla 2026 118/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 119,
+    "text": "Propri´et´e intellectuelle et IAG\nUn enjeu majeur souvent sous-estim´e dans l’usage de l’IAG.\nOrigine des donn´ees d’entraˆınement : risque que le mod`ele r´eg´en`ere des\ncontenus prot´eg´es (texte, code, images).\nDroits sur les contenus g´en´er´es :\nDans l’UE, pas de droit d’auteur automatique sur une production 100% IA.\nL’entreprise doit d´efinir une politique claire (contrats, licences internes).\nLicences et open source : v´erifier la licence des mod`eles (Apache 2.0, MIT,\nrestrictions) et des datasets utilis´es.\nBonnes pratiques :\ntracer les sources de donn´ees et les outputs,\nsensibiliser les´equipes aux risques de r´eutilisation non conforme,\n´eviter d’int´egrer sans v´erification un contenu g´en´er´e dans des livrables\ncontractuels.\nRedhaMoulla 2026 119/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 120,
+    "text": "Biais et ´equit´e\nConstat : les mod`eles refl`etent les biais de leurs donn´ees d’entraˆınement.\nRisque de st´er´eotypes et de discriminations dans les r´eponses.\nImpact fort dans les domaines sensibles (recrutement, m´edical, juridique).\nBesoin d’auditer les mod`eles dans leur contexte m´etier.\nMessage cl´e : l’´evaluation humaine reste indispensable pour corriger les biais.\nRedhaMoulla 2026 120/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 121,
+    "text": "Responsabilit´e et gouvernance\nQuestions cl´es :\nQui est responsable si une IA g´en`ere du code erron´e ou trompeur?\nComment tracer et auditer les d´ecisions de l’IA?\nBonnes pratiques :\nSupervision humaine obligatoire pour les tˆaches critiques.\nMise en place d’une charte d’usage de l’IAG.\nD´efinition de rˆoles et responsabilit´es clairs.\nRedhaMoulla 2026 121/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 122,
+    "text": "Durabilit´e et couˆts cach´es\nImpact ´energ´etique :\nFine-tuning complet = forte consommation GPU et empreinte carbone.\nLoRA/PEFT = alternatives plus sobres, adapt´ees aux entreprises.\nCouˆts cach´es :\nFacturation `a l’usage (tokens, appels API).\nD´ependance `a un fournisseur unique.\nMessage cl´e : arbitrer entre innovation, budget et responsabilit´e\nenvironnementale.\nRedhaMoulla 2026 122/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 123,
+    "text": "Conclusion et bonnes pratiques\nSynth`ese :\nLes enjeux de s´ecurit´e, confidentialit´e et ´ethique sont incontournables.\nLa gouvernance doit accompagner toute int´egration de l’IAG.\nCommencer petit, superviser, documenter et auditer.\nBonne pratique : int´egrer les aspects ´ethiques d`es la conception des projets IAG.\nRedhaMoulla 2026 123/124"
+  },
+  {
+    "file_name": "IAA_Carquefou.pdf",
+    "page": 124,
+    "text": "Acknowledgement\nMerci de votre attention\nredha.moulla@axia-conseil.com\nRedhaMoulla 2026 124/124"
+  }
+]

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAG Demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="panel panel-right">
+        <h1>RAG Demo</h1>
+        <p class="subtitle">Upload a PDF and ask questions about its content.</p>
+
+        <form id="upload-form" class="card">
+          <label for="pdf-file">Upload PDF</label>
+          <input type="file" id="pdf-file" name="file" accept="application/pdf" required />
+          <button type="submit">Process PDF</button>
+        </form>
+
+        <section class="card info-card">
+          <h2>Loaded Document</h2>
+          <p id="doc-name">File: {% if has_document %}{{ file_name }}{% else %}No file uploaded{% endif %}</p>
+          <p id="doc-pages">Pages: {% if has_document %}{{ page_count }}{% else %}0{% endif %}</p>
+        </section>
+
+        <p id="upload-status" class="status"></p>
+      </aside>
+
+      <main class="panel panel-left">
+        <div class="chat-header">
+          <h2>Document Chat</h2>
+        </div>
+
+        <div id="chat-box" class="chat-box"></div>
+
+        <form id="ask-form" class="ask-form">
+          <input
+            type="text"
+            id="question-input"
+            placeholder="Ask a question about the uploaded PDF..."
+            required
+          />
+          <button type="submit">Ask</button>
+        </form>
+
+        <div id="spinner" class="spinner hidden" aria-hidden="true"></div>
+      </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
